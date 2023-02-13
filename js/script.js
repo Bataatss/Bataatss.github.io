@@ -2,8 +2,13 @@ const nob = document.querySelector("button.no-btn");
 const yesb = document.querySelector("button.yes-btn");
 const question = document.querySelector("h2.question");
 const question1 = document.querySelector("h2.question1");
+
+var x = document.getElementById("myAudio");
+
+x.play();
+
 nob.addEventListener("mouseenter", moveHover);
-yesb.addEventListener('click', () => {
+yesb.addEventListener("click", () => {
   question.innerHTML = "ركبني المرجيحة";
   question1.innerHTML = "ركبني المرجيحة";
 });
@@ -13,4 +18,4 @@ function moveHover() {
 
   nob.style.right = i + "px";
   nob.style.top = j + "px";
-} 
+}
