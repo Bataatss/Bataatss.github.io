@@ -66,6 +66,29 @@
     animation: Color 12s ease-in-out infinite;
   }
 }
+@media (min-width: 833px) {
+  .container2 {
+    width: 50vw;
+    height: 30vh;
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    left: 25%;
+    top: 32%;
+    background: linear-gradient(
+      45deg,
+      #210535,
+      #430d4b,
+      #7b337d,
+      #c874b2,
+      #f5d5e0
+    );
+    background-size: 400% 400%;
+    animation: Color 12s ease-in-out infinite;
+  }
+}
 
 .wrapper h2 {
   position: absolute;
