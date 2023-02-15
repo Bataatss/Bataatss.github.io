@@ -2,10 +2,11 @@ const nob = document.querySelector("button.no-btn");
 const yesb = document.querySelector("button.yes-btn");
 const question = document.querySelector("h2.question");
 const question1 = document.querySelector("h2.question1");
+var popupsound =document.getElementById("song");
 
-var x = document.getElementById("myAudio");
-
-x.play();
+function song() {
+  popupsound.play();
+}
 
 nob.addEventListener("mouseenter", moveHover);
 yesb.addEventListener("click", () => {
